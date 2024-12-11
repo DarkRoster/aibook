@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Rus Romanı Yazarı</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .progress {
+        width: 100%;
+        height: 20px;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        margin: 10px 0;
+        overflow: hidden;
+      }
+
+      .progress-bar {
+        height: 100%;
+        background-color: #4caf50;
+        transition: width 0.5s ease-in-out;
+      }
+
+      #loading {
+        margin: 20px 0;
+        text-align: center;
+      }
+
+      #progress-text {
+        margin: 5px 0;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h1>AI Rus Romanı Yazarı</h1>
+    </header>
+
+    <main class="container">
+      <aside class="sidebar">
+        <div class="action-buttons">
+          <button class="btn btn-primary">Yeni Kitap Oluştur</button>
+          <button class="btn btn-secondary">Yeni Sayfa Ekle</button>
+          <button class="btn btn-accent">PDF İndir</button>
+        </div>
+
+        <div class="book-list">
+          <h2>Kitaplarım</h2>
+          <div class="book-item">
+            <span>Kitap 1</span>
+            <span>2 sayfa</span>
+          </div>
+        </div>
+      </aside>
+
+      <section class="content">
+        <div class="page-navigation">
+          <button class="btn btn-secondary">← Önceki Sayfa</button>
+          <span>Sayfa 2/2</span>
+          <button class="btn btn-secondary">Sonraki Sayfa →</button>
+        </div>
+
+        <div class="page-content fade-in">
+          <!-- Sayfa içeriği buraya gelecek -->
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

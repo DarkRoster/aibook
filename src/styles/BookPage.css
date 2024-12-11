@@ -1,0 +1,19 @@
+.book-page {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-page h3 {
+  color: #2c3e50;
+  margin-top: 0;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+  font-family: "Playfair Display", serif;
+}
+
+.content {
+  line-height: 1.8;
+  text-align: justify;
+}
